@@ -1,0 +1,19 @@
+.red{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+}
+
+.yellow{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+}
+
+/* Media Querie para responsividade */
+
+@media (max-width: 600px){
+    .yellow{
+        background-color: green;
+    }
+}
