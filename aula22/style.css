@@ -1,19 +1,24 @@
-.red{
-    width: 250px;
-    height: 250px;
-    background-color: red;
+body{
+    background-image: url(imagens/wallpaper001.jpg);
 }
 
-.yellow{
-    width: 250px;
-    height: 250px;
-    background-color: yellow;
+div.quadrado{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: gray;
 }
 
-/* Media Querie para responsividade */
+div#q1{
+    background-color: skyblue;
+}
 
-@media (max-width: 600px){
-    .yellow{
-        background-color: green;
-    }
+div#q2{
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+
+div#q3{
+    background-image: url('imagens/pattern003.png');
 }
